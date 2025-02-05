@@ -4,12 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Table template</title>
-    <link href="minimal-table.css" rel="stylesheet" type="text/css">
+    <link href="../CSS/assignment2-part2.css" rel="stylesheet" type="text/css">
   </head>
   <body>
     <h1>Table template</h1>
-    <table border="2">
+    <table border="1">
         <caption>Data about the planets of our solar system (Planetary facts taken from <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>).</caption>
+        <thead>
         <tr>
         <th colspan="2"></th>
         <th>Name</th>
@@ -23,7 +24,7 @@
         <th>Number of moons</th>
         <th>Notes</th>
         </tr>
-
+      </thead>
         <tr>
         <th colspan="2" rowspan="4" >Terrestial Planets</th>
         <th>mercury</th>
@@ -33,7 +34,7 @@
         <td>3.7</td>
         <td>4222.6</td>
         <td>57.9</td>
-        <td>167 0</td>
+        <td>167</td>
         <td>0</td>
         <td>Closest to the Sun</td>
         </tr>
@@ -41,7 +42,7 @@
     <tr>
         <th>Venus</th>
         <td>4.87</td>
-        <td>12104</td>
+        <td>12,104</td>
         <td>5243</td>
         <td>8.9</td>
         <td>2802.0</td>
@@ -128,10 +129,20 @@
       <td>-200</td>
       <td>14</td>
       <td></td>
+    </tr>
 
-
-
-
+    <tr>
+      <th colspan="2">Dwarf Planets</th>
+      <th>Pluto</th>
+      <td>0.0146</td>
+      <td>2,370 </td>
+      <td>2095</td>
+      <td>0.7</td>
+      <td>153.3</td>
+      <td>5906.4</td>
+      <td>-255</td>
+      <td>5</td>
+      <td>Declassified as a planet in 2006, but this <a href="http://www.usatoday.com/story/tech/2014/10/02/pluto-planet-solar-system/16578959/">remains controversial</a>.</td>
 
 
     </tr>
