@@ -26,3 +26,22 @@ a:visited {
 a:hover {
   text-decoration: none;
 }
+/*Question 1 and 2*/
+h1{
+color: hotpink;
+border-bottom: 10px dotted purple;
+}
+
+/*Question 3*/
+h2{
+  font-style: italic;
+}
+/*Question 4*/
+ul{
+background-color: #eeeeee;
+}
+/*Question 5 */
+
+a:hover{
+  color:green;
+}
