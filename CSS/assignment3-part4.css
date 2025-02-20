@@ -44,15 +44,6 @@ body {
     padding: .5em 1em;
   }
   
-  .photos {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  .feature {
-      width: 200px;
-  }
 
 
   nav li{
@@ -61,11 +52,6 @@ body {
 
   nav li:last-child{
     margin-right: 0;
-  }
-
-  article img{
-    float: left;
-    margin-right: 10px;
   }
 
   .photos{
@@ -78,19 +64,36 @@ body {
 
   .feature{
     width: 200px;
+  } 
+
+  article img{
+    float: left;
+    margin-right: 10px;
   }
+
 
   main{
     display: flex;
     gap: 20px;
   }
-  aside{
-    flex: 1;
-  }
+  
 
   article{
     flex: 2;
   }
+
+  aside{
+    flex: 1;
+  }
+
+
+
+  .photos li{
+    width: calc(50% - 1px);
+    margin-bottom: 1px;
+    margin-right: 1px;
+  }
+
 
   .photos img{
     width: 100%;
@@ -98,8 +101,4 @@ body {
     display: block;
   }
 
-  .photos li{
-    width: calc(50%-1px);
-    margin-bottom: 1px;
-    margin-right: 1px;
-  }
+  
