@@ -73,9 +73,7 @@
     color :rgb(61, 71, 126)
   }
 
-  a:active{
-    text-shadow: none;
-  }
+ 
 
   html{
     font-size: 10px;
@@ -149,6 +147,7 @@ letter-spacing: 0.05;
     font-size: 1.6rem;
   }
   p a::after{
+    content: "";
     display: inline-block;
     width: 10px;
     height: 10px;
