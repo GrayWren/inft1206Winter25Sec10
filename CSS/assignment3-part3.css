@@ -1,5 +1,13 @@
 /* General setup */
+@font-face {
+  font-family: kachika;
+  src: url(../Fonts/Assignment3/KACHIKA.ttf);
+}
 
+@font-face {
+  font-family: Study Case;
+  src: url(../Fonts/Assignment3/Study\ Case.otf);
+}
 * {
     box-sizing: border-box;
   }
@@ -46,4 +54,26 @@
 
   html{
     font-size: 10px;
+  }
+
+  a:hover{
+    color: rgb(218, 76, 76);
+    text-decoration: none;
+  }
+
+  
+  a{
+    color: #a66;
+  }
+
+  a:visited{
+    color :rgb(126, 138, 205)
+  }
+
+  a:focus{
+    color :rgb(61, 71, 126)
+  }
+
+  a:active{
+    
   }
