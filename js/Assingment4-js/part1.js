@@ -35,9 +35,9 @@ newStory=newStory.replace("zItem",zItem)
   
     if(document.getElementById("uk").checked) {
       const weight = Math.round(300/14)+" stones";
-      newStory=newStory.replace("94 fahrenheit",weight)
+      newStory=newStory.replace("300 pounds",weight)
       const temperature =  Math.round((94 -32) * 5/9 )+" centigrade";
-      newStory=newStory.replace("300 pounds",temperature)
+      newStory=newStory.replace("94 fahrenheit",temperature)
   
     }
   
