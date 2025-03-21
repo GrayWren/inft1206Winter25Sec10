@@ -14,6 +14,10 @@ for (let i =0; i<5; i++){
     newImage.setAttribute('src', imgs[i]);
     newImage.setAttribute('alt', alts[i]);
     thumbBar.appendChild(newImage);
+    thumbBar.addEventListener("click",b=>{
+        displayedImage.src=b.target.src
+        displayedImage.alt=b.target.alt
+    })
 }
 
 
