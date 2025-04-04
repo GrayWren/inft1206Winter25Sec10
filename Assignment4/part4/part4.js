@@ -39,7 +39,7 @@ class Shape  {
 class Ball extends Shape {
   constructor(x, y, velX, velY, color, size) {
     super(x,y,velX,velY);
-    this.exists=true
+    this.exists=true;
     this.color = color;
     this.size = size;
   }
@@ -91,7 +91,7 @@ class Ball extends Shape {
 
 class EvilCircle extends Shape{
   constructor(x,y){
-super(x,y,20,20)
+super(x,y,20,20);
 this.color="white";
 this.size=10;
 
@@ -115,7 +115,7 @@ window.addEventListener("keydown", (e) => {
 
   draw() {
     ctx.beginPath();
-    ctx.lineWidth=3
+    ctx.lineWidth=3;
     ctx.strokeStyle = this.color;
     ctx.arc(this.x, this.y, this.size, 0, 2 * Math.PI);
     ctx.stroke();
@@ -194,7 +194,7 @@ function loop() {
 
   evilBall.draw();
   evilBall.checkBounds();
-  evilBall,collisionDetect();
+  evilBall.collisionDetect();
 
   requestAnimationFrame(loop);
 }
